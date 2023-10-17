@@ -44,7 +44,7 @@ top of the page. it can change the styling of the header */
     margin-left: 25px;
 }
 
-/* This "a" anchor element selector creates the button colors */
+/* This "a" anchor element selector creates the header button colors */
 
 a {
     color: #ffffff;
@@ -62,14 +62,16 @@ a {
     background-position: center;
 }
 
-/* This content class selector displays the content under the background image.
-the content is displayed in blocks. */
+/* This content class selector displays the content below the background image.
+the content is displayed in blocks, and describes the service offerings. */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* This the SEO block  */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -93,10 +95,14 @@ p {
     font-size: 16px;
 }
 
+/* This the text alignment  */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* This the ORM block  */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -116,10 +122,14 @@ p {
     font-size: 36px;
 }
 
+/* This the text alignment  */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/* This the Social block  */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -139,6 +149,8 @@ p {
     font-size: 36px;
 }
 
+/* This the aside  */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -149,6 +161,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* This the lead generation part on the side */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -166,6 +180,8 @@ p {
     max-width: 150px;
 }
 
+/* This the brand part on the side */
+
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -182,6 +198,8 @@ p {
     max-width: 150px;
 }
 
+/* This the cost managment part on the side */
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -197,6 +215,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* This controls the footer styling */
 
 .footer {
     padding: 30px;
